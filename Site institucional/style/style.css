@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    width: 100%;
+
+    border-bottom:solid 3px #32a7b1;
+    background-color: black;
+  
+
+}
+.header h1{
+color: #32a7b1;
+}
+.container{
+    display: flex;
+     width: 80%;
+    margin: auto;
+}
+.header .container{
+    justify-content: space-between;
+}
+.navbar{
+    color: #b58d5b;
+    list-style: none;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: #b58d5b;
+}
+.navbar a:hover{
+    color: aqua;
+
+
+}
+.banner{
+    width: 100%;
+    height: 450px;
+    background-image: url(../assets/bg-jelly-fish-para_outras_pags.png);
+}
+.banner .container{
+    justify-content: center;
+    align-items: center;
+    color:azure;
+    height: 100%;
+    
+}
+.banner .container span{
+    font-weight: bold;
+}
+.banner .container p   {
+    font-size: 30px;
+    width:250px;
+}
+.social{
+    width: 100%;
+    background-color: #cdcdcd;
+}
+.social .container img{
+    width: 150px;
+    height: 150px;
+    padding: 20px 5px;
+}
+.card{
+    
+    display: flex;
+  align-items: center;
+    flex-direction: column;
+    justify-content: center ;
+}
+.footer{
+    width: 100%;
+    background-color: #32a7b1;
+    color: #f4f2f3;
+   
+}
+.footer .container{
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+ 
+}
+        .form{
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            padding: 20px 60px;
+            color: #094C56;
+            border-radius: 15px;
+            align-items: center;
+        }
+        .form1{
+            background-color: #cdcdcd;
+            display: flex;
+            flex-direction: column;
+            padding: 10px 60px;
+            color: #0b3b42;
+            border-radius: 15px;
+        }
+        .form1 h1{
+            border: 0;
+            padding: 0;
+            margin: 8px;
+        }
+
+        .form label{
+            font-size: 18px;
+        }
+        .form input{
+            background: transparent;
+            outline: none;
+            border: none;
+            border-bottom: solid 2px #2397a1;
+             
+            padding: 5px;
+            margin-bottom: 3px;
+            
+        }
+        .form button{
+            background-color: #094C56;
+            color: #f4f2f3;
+            border: 0;
+            padding: 10px;
+            width: 115px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        
+
+        .form1{
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            padding: 20px 60px;
+            color: #094C56;
+            border-radius: 15px;
+            align-items: center;
+        }
+        .form1{
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            padding: 10px 60px;
+            color: #0b3b42;
+            border-radius: 15px;
+        }
+        .form1 h1{
+            border: 0;
+            padding: 0;
+            margin: 8px;
+        }
+
+        .form1 label{
+            font-size: 18px;
+        }
+        .form1 input{
+            background: transparent;
+            outline: none;
+            border: none;
+            border-bottom: solid 2px #2397a1;
+             
+            padding: 5px;
+            margin-bottom: 3px;
+            
+        }
+        .form1 button{
+            background-color: #094C56;
+            color: #f4f2f3;
+            border: 0;
+            padding: 10px;
+            width: 115px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+        }
+        
